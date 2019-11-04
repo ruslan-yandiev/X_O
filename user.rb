@@ -1,4 +1,3 @@
-
 class User
   attr_accessor :bul
 
@@ -57,5 +56,3 @@ class User
     puts "Выбранные поля #{@arr_letter}"
   end
 end
-
-
