@@ -17,8 +17,8 @@ class User
     @letter = letter
     unless @@arr.include?(@letter)
       while @@arr.include?(@letter) == false
-        puts 'Hes not the index in the feild'
-        puts "Enter index the feild"
+        puts 'Нет такого поля'
+        puts "Enter letter"
         @letter = STDIN.gets.strip
       end
     end

@@ -1,6 +1,6 @@
 require_relative 'user.rb'
 
-puts "start gema"
+puts "Start gema"
 
 user1 = User.new
 
@@ -9,7 +9,7 @@ user2 = User.new
 while User.arr.size > 0
   File.open('file1.txt', 'r'){|f| puts f.readlines}
 
-  puts "Enter index the feild"
+  puts "Enter letter"
   letter_user = STDIN.gets.strip
 
   user1.inspecting(letter_user)
