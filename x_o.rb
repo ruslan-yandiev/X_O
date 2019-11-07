@@ -6,9 +6,9 @@ user1 = User.new
 
 user2 = User.new
 
-while User.arr.size > 0
-  File.open('file1.txt', 'r'){|f| puts f.readlines}
+File.open('file1.txt', 'r'){|f| puts f.readlines}
 
+while User.arr.size > 0
   puts "Enter letter"
   letter_user = STDIN.gets.strip
 
